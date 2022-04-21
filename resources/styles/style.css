@@ -1,0 +1,158 @@
+body,
+a {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    background-color: black;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h2,
+h3,
+h4 {
+    margin: 10px auto;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4,
+h5 {
+    font-size: 22px;
+}
+
+figcaption {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+img {
+    height: 200px;
+    width: 300px;
+}
+
+/* Header Section */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    z-index: 10;
+    background-color: black;
+    width: 100%;
+    top: 0;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+    padding-left: 20px;
+}
+
+nav li{
+    display: inline;
+    list-style: none;
+    padding-right: 15px;
+}
+
+nav li a {
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+main, footer{
+    margin-top: 86px;
+}
+
+/* Container */
+
+.container {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+/* Mission Section */
+
+#mission {
+    min-height: 700px;
+    max-width: 1200px;
+    min-width: 360px;
+    width: 100%;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+}
+
+.mission-text {
+    background-color: black;
+}
+
+/* Featured Section */
+
+#featured {
+    max-width: 1200px;
+    min-width: 360px;
+    width: 100%;
+    margin: 50px auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+}
+
+/* Location Section */
+
+#locations {
+    max-width: 1200px;
+    min-width: 360px;
+    max-height: 900px;
+    min-height: 600px;
+    height: 100%;
+    width: 100%;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+}
+
+.location-box-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.location-box {
+    background-color: black;
+    opacity: 1;
+    width: 300px;
+    height: 250px;
+    margin: 15px 40px;
+    text-align: center;
+    line-height: 2
+}
+
+/* Contact Section */
+
+#contact {
+    height: 200px;
+}
+
+/* Footer Section */
+
+footer{
+    text-align: left;
+    padding-left: 20px;
+}
